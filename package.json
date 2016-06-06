@@ -1,0 +1,24 @@
+{
+  "name": "pelias-categories",
+  "version": "0.0.1",
+  "description": "Pelias category taxonomy definition",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pelias/categories.git"
+  },
+  "keywords": [
+    "categories",
+    "search",
+    "taxonomy"
+  ],
+  "author": "Mapzen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pelias/categories/issues"
+  },
+  "homepage": "https://github.com/pelias/categories"
+}
