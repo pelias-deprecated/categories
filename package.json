@@ -1,13 +1,14 @@
 {
   "name": "pelias-categories",
-  "version": "0.0.1",
+  "version": "0.0.0-semantic-release",
   "description": "Pelias category taxonomy definition",
   "main": "index.js",
   "scripts": {
     "test": "node test/run.js",
     "travis": "npm test",
     "lint": "jshint .",
-    "validate": "npm ls"
+    "validate": "npm ls",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
     "test"
   ],
   "devDependencies": {
-    "precommit-hook": "^3.0.0"
+    "precommit-hook": "^3.0.0",
+    "semantic-release": "^4.3.5"
   }
 }
