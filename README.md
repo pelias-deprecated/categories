@@ -15,7 +15,7 @@ npm install pelias-categories
 
 ## Usage
 
-```
+```javascript
 var categories = require('pelias-categories');
 
 if (categories.isValidCategory('food')) {
