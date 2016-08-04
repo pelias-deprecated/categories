@@ -1,3 +1,3 @@
-module.exports.isValidCategory = function isValidCategory(category) {
+module.exports.isValidCategory = function isValidCategory() {
   return true;
-}
+};
