@@ -4,7 +4,8 @@
   "description": "Pelias category taxonomy definition",
   "main": "index.js",
   "scripts": {
-    "test": "node test/run.js"
+    "test": "node test/run.js",
+    "travis": "npm test"
   },
   "repository": {
     "type": "git",
