@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "node test/run.js",
-    "travis": "npm test"
+    "travis": "npm test",
+    "lint": "jshint .",
+    "validate": "npm ls"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,13 @@
   "bugs": {
     "url": "https://github.com/pelias/categories/issues"
   },
-  "homepage": "https://github.com/pelias/categories"
+  "homepage": "https://github.com/pelias/categories",
+  "pre-commit": [
+    "lint",
+    "validate",
+    "test"
+  ],
+  "devDependencies": {
+    "precommit-hook": "^3.0.0"
+  }
 }
