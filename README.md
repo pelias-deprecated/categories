@@ -5,6 +5,8 @@
 
 # `pelias-categories`
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/pelias/categories.svg)](https://greenkeeper.io/)
+
 This module is intended to represent the Pelias category taxonomy. It is the place to ask what categories exist, as well as what tags they correspond to in various data sets.
 
 ## Installation
