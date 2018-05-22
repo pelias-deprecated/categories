@@ -36,5 +36,8 @@
   "devDependencies": {
     "precommit-hook": "^3.0.0",
     "semantic-release": "^15.4.1"
+  },
+  "release": {
+    "success": []
   }
 }
