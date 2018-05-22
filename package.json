@@ -1,6 +1,6 @@
 {
   "name": "pelias-categories",
-  "version": "0.0.0-semantic-release",
+  "version": "0.0.0-development",
   "description": "Pelias category taxonomy definition",
   "engines": {
     "node": ">=6.0.0"
